@@ -1,3 +1,12 @@
-This is the source code for a time-series forecasting ML demo app.
-<br>You can try out the app's features at the URL below.
-<br>https://storage.googleapis.com/ml-test011-pubfiles/index.html
+MLデモ：時系列予測
+<BR>
+ML Demo: Time Series Forecasting
+<BR>
+https://storage.googleapis.com/ml-test011-pubfiles/index.html
+<BR>
+<BR>
+GCPリソースは下記のterraformコードを転用して作成しています。
+<BR>
+The GCP resources are created by repurposing the Terraform code below.
+<BR>
+https://github.com/tommy1231net/ml-test004/tree/main/terraform
