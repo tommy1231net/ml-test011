@@ -1,0 +1,11 @@
+SELECT
+  date,
+  value / 10.0 AS max_temp
+FROM
+  `bigquery-public-data.ghcn_d.ghcnd_20*`
+WHERE
+  id = 'JA000047662'
+  AND element = 'TMAX'
+  AND date >= '2020-01-01'
+ORDER BY
+  date ASC
